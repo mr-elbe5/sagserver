@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="sagserver">
+    <output-path>$PROJECT_DIR$/out/artifacts/sagserver</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sagserver" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="sagserver/web/Web" />
+    </root>
+  </artifact>
+</component>
