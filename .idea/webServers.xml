@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="09820555-12d2-4c7f-b152-99187c3bc8b8" name="ubuntuserver" url="http://sag.elbe5.de">
+        <fileTransfer rootFolder="/home/tomcat/tomcat10/sagserver/ROOT" accessType="SFTP" host="elbdeich25.de" port="1207" sshConfigId="53e87b34-5783-43e5-971c-0abf981f9bf0" sshConfig="tomcat@elbdeich25.de:1207 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

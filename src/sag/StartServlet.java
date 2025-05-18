@@ -8,7 +8,7 @@ public class StartServlet extends HttpServlet {
     private String message;
 
     public void init() {
-        message = "Hello World from Servlet!";
+        message = "Hello World from Servlet 2!";
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
